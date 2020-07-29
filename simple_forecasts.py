@@ -8,6 +8,7 @@ from statsmodels.tsa.ar_model import AutoReg
 '''imported the data'''
 sp = pd.read_csv('sp500.csv')
 # print(sp.head())
+
 # print(sp.columns)
 '''Am only interested in Adj Close, created new dataframe to adjust to this'''
 dat = pd.DataFrame(data=sp['Date'])
